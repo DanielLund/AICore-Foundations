@@ -4,11 +4,10 @@
 
 ## <ins> Practicals </ins>
 
-
 ### Pracical 1 - Create a GitHub repo and remote starting remotely
 
 - Create a new GitHub repo and clone it
-- Make a new branch 
+- Make a new branch
 - Make a change
 - Add it to staging
 - Commit it
