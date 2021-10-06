@@ -105,7 +105,7 @@ print('aaa' > 'AAA')
 - Why is this?
 
 ```txt
-In python, characters in a string are a representation of a decimal numberusing ASCII encoding. 
+In python, characters in a string are a representation of a decimal number using ASCII encoding. 
 The values of which are in the table below
 Therefore:
     aaa = 97 + 97 + 97 = 291
