@@ -102,6 +102,7 @@ import re
 
 name_regex = '[!@£$%^&*()]'
 email_regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+
 def name_valid(name: str) -> bool:
     if (re.search(name_regex, name)):
         return True
