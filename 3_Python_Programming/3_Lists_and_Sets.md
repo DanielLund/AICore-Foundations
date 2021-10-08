@@ -48,7 +48,7 @@ print(list_4)
 
 ### Practical 3 - Car Number Plate Year
 
-- Given the following list of number plates: 
+- Given the following list of number plates:
 
 ```python
 ["G06 WTR", "WL11 WFL", "QW68 PQR"]
@@ -77,7 +77,7 @@ for n in range(len(dates)):
     dates[n] = int(dates[n])
     print(type(dates[n]))
 >>> <class 'int'>
-    <class 'int'>co
+    <class 'int'>
     <class 'int'>
 ```
 

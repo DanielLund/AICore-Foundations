@@ -62,5 +62,5 @@ if altitude < 100 or altitude > 50000:
 elif: airspeed <=60 or airspeed >= 500:
     print("This is unsafe flying, adjust your airspeed")
 else:
-    print("Thank you for practicing safe flying)
+    print("Thank you for practicing safe flying")
 ```

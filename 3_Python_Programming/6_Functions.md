@@ -35,8 +35,8 @@ in_range(10, 50, 100)
 
 ```python
 
-def dict_attr(clothes: dict, attributes_to_print=all):
-    if attributes_to_print == all:
+def dict_attr(clothes: dict, attributes_to_print='all'):
+    if attributes_to_print == 'all':
         for k, v in clothes.items():
             print(k, v)
     else:
@@ -58,16 +58,10 @@ def dict_attr(clothes: dict, attributes_to_print=all):
 
 ```python
 def name_valid(name: str) -> bool:
-    if name.isalpha():
-        return True
-    else:
-        return False
+    return name.isalnum()
 
 def email_valid(email: str) -> bool:
-    if '@' in email:
-        return True
-    else:
-        return False
+    return '@' in email
 
 def age_valid(age: int) -> bool:
     if age > 12:
