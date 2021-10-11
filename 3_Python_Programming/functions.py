@@ -17,7 +17,7 @@ def age_valid(age: int) -> bool:
     else:
         return False
 
-def profile_valid(name: str, emailL: str, age: int) -> str:
+def profile_valid(name: str, email: str, age: int) -> str:
     if name_valid(name) == False:
         print("Sorry your name must not contain any of the following characters: !, @, £, $, %, ^, &, *, ( or )" )
     elif email_valid(email) == False:

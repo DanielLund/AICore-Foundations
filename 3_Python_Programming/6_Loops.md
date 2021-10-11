@@ -141,7 +141,7 @@ dict_2 = {
 
 list_of_dicts = [dict_1, dict_2]
 
-first_letter = list_of_dicts[1]["skills"][0][0]
+first_letter = list_of_dicts[-1]["skills"][0][0]
 
 len_names = [len(dict_item['name']) for dict_item in list_of_dicts]
 print(len_names)
