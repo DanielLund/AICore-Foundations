@@ -82,7 +82,6 @@ def create_order(order_list, names):
             print(f"Budget Remaining: £{budget:.2f}")
             receipt.append(names[order[0]])
             receipt.append(f"£{this_order_price:.2f}")
-            pass
     print(f"Receipt: {receipt}, Total: £{running_total:.2f}")
 
 # Result using the given names and order_list
