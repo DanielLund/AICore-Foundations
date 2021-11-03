@@ -144,3 +144,28 @@ class JanKenPon:
 game = JanKenPon()
 game.simulate()
 # %%
+class Temperature:
+    def __init__(self, temp: float) -> None:
+        self.temp_celsius = temp
+        
+    def farenheit(self) -> float:
+        print('temperature now set to farenheit')
+        return (self.temp_celsius * (9/5)) + 32
+    
+    @staticmethod
+    def fahrenheit_to_cel(temp: float) -> float:
+        print('Temperature now set to celsius')
+        return (temp - 32) * (5/9)
+    
+    @staticmethod
+    def valid_temperature(temp: float) -> bool:
+        return  -273 > temp < 3000
+
+    @classmethod
+    def set_temperature_farenheit(cls, temp_farenheit):
+        return cls(Temperature.fahrenheit_to_cel(temp_farenheit))
+        
+    
+far = Temperature.set_temperature_farenheit(72)
+print(far.temp_celsius)
+# %%
